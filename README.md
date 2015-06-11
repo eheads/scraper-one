@@ -25,13 +25,14 @@
 	lib/log4j-core-2.3.jar
   
 * Run scraper-1.0-SNAPSHOT.jar 
+
   In Windows: 
 
 	java -jar  scraper-1.0-SNAPSHOT.jar 
 	
  In unix: 
  
- 	nohup java -jar scraper-1.0-SNAPSHOT.jar >&/dev/null
+ 	$ nohup java -jar scraper-1.0-SNAPSHOT.jar >&/dev/null
 
 #### Developer's note
 * My first Java thread project ever!
