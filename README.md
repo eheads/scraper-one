@@ -14,10 +14,13 @@
 
 #### Deployment
 * Build the project using maven | Command: mvn clean install
-* Untar scraper-1.0-SNAPSHOT.tar.gz | Command: tar xzvf scraper-1.0-SNAPSHOT.tar.gz 
-  (I do this using git bash. Not sure on how to do on cmd prompt. Haven't tried before.)
+* Untar scraper-1.0-SNAPSHOT.tar.gz 
+
+	Command: tar xzvf scraper-1.0-SNAPSHOT.tar.gz (I do this using git bash. Not sure on how to do on cmd prompt. Haven't tried before.)
+	
   This will untar the following folders and files:
-    scraper-1.0-SNAPSHOT.jar
+	
+	scraper-1.0-SNAPSHOT.jar
 	conf/application.properties - where the shift configuration of threads are configured
 	conf/log4j2.xml
 	file/data.csv               - where the scraped data are appended
